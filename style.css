@@ -1,0 +1,214 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* display: flex; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFCF6; /* C'est la couleur blanchatre*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#C2{
+
+    height: 200px;
+    width: 200px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 100vw;
+
+}
+
+
+#C{
+
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+
+#P{
+
+    position: relative;
+    right: 20px;
+    bottom: 100px;
+    transform: rotate(15deg);
+    width: 450px;
+    height: 450px;
+    
+}
+
+#D{
+
+    width: 450px;
+    height: 450px;
+    margin-left: 500px;
+    display: relative;
+    position: relative;
+    top: 80px;
+    
+
+}
+
+.I{
+
+    font-size: 0.73rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 200px;
+    display: inline-block;
+
+}
+
+ul{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+li{
+
+    width: 130px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.83rem;
+
+}
+
+#QS{
+
+    
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 0.83rem;
+
+
+}
+
+footer{
+
+
+    position:30px;
+    bottom:40px;
+    left: 47vw;
+    padding-top:50px;
+    height:50px;
+    font-weight: bold;
+    font-size: 0.855rem;
+
+}
+
+.reseaux img{
+
+    width: 60px;
+    height: 60px;
+    margin-bottom: 300px;
+
+}
+
+
+#FB, #TwiT, #IG{
+
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#as, #gp{
+
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-top: 30px; /* à enlever  */
+    position: relative;
+    bottom:  0px;
+}
+
+
+
+.telechargement{
+
+    position: absolute;
+    bottom:  140px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 940px){
+
+    #D{
+
+        width: 200px;
+        height: 200px;
+        margin-top: 240px;
+        position: relative;
+        margin-left: 0;
+    }
+
+    #C2{
+        width: 100px;
+        height: 100px;
+    }
+
+    #P, ul, footer {
+
+        display: none;
+        visibility: hidden;
+    }
+
+    #FB, #TwiT, #IG{
+
+        bottom: 0;
+
+          }
+
+    .telechargement{
+
+        bottom: 30px;
+    }
+
+    .reseaux{
+
+        position: relative;
+        top: 170px;
+    }
+
+}
+
+
+@media screen and (max-width: 660px){
+
+    ul{
+        display: none;
+        visibility: hidden;
+    }
+
+    #P{
+
+        display: none;
+        visibility: hidden;
+    }
+
+
+}
